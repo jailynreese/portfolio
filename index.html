@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jailyn Reese Talavera</title>
+
+    <link rel="styleSheet" href="CSS/StyleSheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Shrikhand&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <h1>Jailyn Reese Talavera</h1>
+        </a>
+        <nav id="navTop">
+            <a href="#about">About</a>
+            <a href="#h2pro">Projects</a>
+            <a href="media/JailynReeseTalavera-Resume.pdf">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <svg id="behindArrow">
+        <circle cx="50" cy="50" r="40" />
+    </svg>
+    <a href="index.html" id="toTop"><img src="media/arrow-up.svg" alt="back to top"></a>
+
+    <main>
+        <div id="first">
+            <img src="media/Jailyn.JPG" id="me" alt="">
+            <p id="intro1">
+                <em>Hi, I'm Jailyn.</em><br>
+                creative developer
+            </p>
+        </div>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>I am a third year student at Rochester Institute of Technology studying New Media Interactive
+                Development. I was born and raised in Sillicon Valley, which was a big influence in choosing my major.
+                As a creative developer, I am able to combine my passions of technology and
+                art to create enjoyable, memoriable experiences. One day I hope to land my dream job as
+                an Imagineer at Disney!
+            </p>
+            <br>
+            <p>I'm not coding or designing, you can find me:</p>
+            <ul>
+                <li>working on my small business selling handmade items</li>
+                <li>making music (I like to sing, play piano, ukulele, and guitar)</li>
+                <li>looking for new foods to try</li>
+                <li>spending time with family and friends</li>
+            </ul>
+
+
+        </section>
+
+        <h2 id="h2pro">Projects</h2>
+        <section id="projects">
+            <div class="pro" id="skyTunes">
+                <img src="media/skytunes.png" alt="Sky Tunes">
+                <div class="projectinfo">
+                    <p><a href="https://people.rit.edu/~jrt5717/330/project2/"><em>Sky Tunes</em></a>
+                        is an application that takes the weather of any city and a song given by the user to create a list of songs based off that given information.
+                    </p>
+
+                    <p>
+                        In this project, my goal was to implement two APIs into my project. However, I ended up using three: Mapbox API, Weather API, and the Spotify API.
+                        One of the biggest challenges I faced was implementing the Spotify API because I had yet had experience dealing with servers. In order to jump over this 
+                        hurdle, I watched YouTube videos to understand how it should be applied.
+                    </p>
+
+                    <p><b>Created with: HTML, CSS, JavaScript</b></p>
+
+                    <p>Resources used for project:</p>
+                    <ul>
+
+                        <li><a href="https://openweathermap.org/api">Weather API</a></li>
+                        <li><a href="https://developer.spotify.com/documentation/web-api/">Spotify API</a></li>
+                        <li><a href="https://docs.mapbox.com/api/overview/">Mapbox API</a></li>
+                        <li><a href="https://unsplash.com/photos/aQx1sz3cbpQ">Background Image by Jerry Zhang</a></li>
+                        <li><a href="https://fonts.google.com">Google Fonts</a></li>
+                    </ul>
+
+                    <p class="playme"><a href="https://people.rit.edu/~jrt5717/330/project2/"><b>Check it out!</b></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="pro" id="DisneylandFireworks">
+                <img src="media/firework.png" alt="Disneyland Fireworks Spectacular">
+                <div class="projectinfo">
+                    <p><a href="https://people.rit.edu/~jrt5717/330/project1/"><em>Disneyland Fireworks
+                                Spectacular</em></a>
+                        is an audio visualizer that changes the appearance of the fireworks shooting in the sky based on
+                        the user’s input.
+                    </p>
+
+                    <p>
+                        In this project, my partner and I wanted to create a audio visualizer and become familar with
+                        using the Web Audio API.
+                        One challenge we encountered with this project was getting the fireworks to work with the music
+                        and the DOM elements, especially
+                        because the fireworks would keep moving after the user would pause and resume the music.
+                    </p>
+
+                    <p><b>Created with: HTML, CSS, JavaScript</b></p>
+
+                    <p>Resources used for project:</p>
+                    <ul>
+
+                        <li><a href="https://archive.org/details/DisneySounds/">archive.org</a></li>
+                        <li><a
+                                href="http://clipart-library.com/new_gallery/77-771163_free-disneyland-castle-clipart-disney-castle-logo-png.png">Castle
+                                Image</a></li>
+                        <li><a href="https://fonts.google.com">Google Fonts</a></li>
+                    </ul>
+
+                    <p class="playme"><a href="https://people.rit.edu/~jrt5717/330/project1/"><b>Check it out!</b></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="pro" id="AlphabetSoup">
+                <img src="media/alphabetsoup.jpg" alt="Alphabet Soup!">
+                <div class="projectinfo">
+                    <p><a href="https://people.rit.edu/~jrt5717/235/project3/"><em>Alphabet Soup!</em></a> is a typing
+                        game where you are given a limited amount of time and a list of random
+                        words. The goal of the game is to see how many words you can type correctly within that given
+                        time.
+                    </p>
+
+                    <p>
+                        In this project, my goal was create a fun, memorable experience using everything I've learned in
+                        IGME 235.
+                        My goal with this project was also to familiarize myself with PIXIjs. One challenge I
+                        encountered with this
+                        project was working with the keypress handler. Since most of my code was based off this event, I
+                        had to be aware
+                        of how I went about finding solutions. I had a difficult time structuring the code in a way that
+                        worked with this event handler.
+                    </p>
+
+                    <p><b>Created with: HTML, CSS, JavaScript, PIXIjs, Canva</b></p>
+
+                    <p>Resources used for project:</p>
+                    <ul>
+                        <li><a href="https://freesound.org/browse/tags/game-sound/">freesound.org</a></li>
+                        <li><a href="https://github.com/RazorSh4rk/random-word-api">Random Word API</a></li>
+                    </ul>
+
+                    <p class="playme"><a href="https://people.rit.edu/~jrt5717/235/project3/"><b>Play me!</b></a></p>
+                </div>
+            </div>
+
+            <div class="pro" id="EntertainmentTrivia">
+                <img src="media/EntertainmentTrivia.jpg" alt="Entertainment Trivia">
+                <div class="projectinfo">
+                    <p><a href="https://people.rit.edu/~jrt5717/235/project2/"><em>Entertainment Trivia</em></a> is a
+                        trivia game
+                        where you can test your knowledge on all things entertainment! This site allows you to
+                        personalize
+                        your test so that you can choose the number of questions, the difficulty of questions, and the
+                        sub-category your questions will be based on!</p>
+
+                    <p> In this project, my goal was to practice using an API while making a fun, memorable experience.
+                        My process was first by adding all the personalization controls to the html as well as empty
+                        containers that will be filled with test questions and test results. Next, I worked on the
+                        functionality of the site with JavaScript. I added event listeners for both buttons. The start
+                        button displays test questions based on the user’s personalization. The submit button displays
+                        the user’s results as well as the correct answers to the questions they got wrong. Lastly, I
+                        styled the site with CSS. I didn’t do anything too crazy with the styling, but I did create a
+                        background image for the title and results using Canva. I also made my site more in-tune with my
+                        theme by changing the typefaces.</p>
+
+                    <p><b>Created with: HTML, CSS, JavaScript, Canva</b></p>
+
+                    <p>Resources used for project:</p>
+                    <ul>
+                        <li><a href="https://opentdb.com">Trivia API</a></li>
+                        <li><a href="https://fonts.google.com">Google Fonts</a></li>
+                    </ul>
+
+                    <p class="playme"><a href="https://people.rit.edu/~jrt5717/235/project2/"><b>Play me!</b></a></p>
+                </div>
+            </div>
+
+            <div class="pro" id="TigerMingle">
+                <img src="media/tigermingle.jpg" alt="Tiger Mingle">
+                <div class="projectinfo">
+                    <p><em>Tiger Mingle</em> is an social media application that allows RIT students to meet new people
+                        on campus. Users
+                        will be randomly paired up with other users and will have the ability to message them. Once they
+                        reach a certain number
+                        of messages sent to one another, they will be able to play games like hangman, tic tac toe, and
+                        battleship.
+                    </p>
+
+                    <p>This application was a group project in my IGME 201 class. I worked with 2 other student on the
+                        project for the duration of a semester.
+                        In this project, I took care of the chatting/messaging function, the random pairing generator,
+                        the hangman game, and the visuals.
+                    </p>
+
+                    <p><b>Created with: C#, Windows Forms</b></p>
+
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div id="Contactlinks">
+            <a href="https://www.linkedin.com/in/jailynreesetalavera/"><img src="media/linked.svg" alt="linkedin">
+            </a>
+            <a href="https://github.com/jailynreese"><img src="media/github.svg" alt="github"></a>
+            <a href="mailto:jreeset@gmail.com"><img src="media/email.svg" alt="email"></a>
+        </div>
+        <div>©2020 Jailyn Reese Talavera </div>
+    </footer>
+
+</body>
+
+</html>
