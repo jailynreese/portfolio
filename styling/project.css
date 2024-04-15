@@ -1,0 +1,28 @@
+.project_img {
+    display: block;
+    width: 30%;
+    margin: 2% auto;
+}
+
+.tag {
+    display: inline-block;
+    background-color: rgba(100, 100, 100, 0.4);
+    padding: 7px;
+    margin: 2px;
+    border-radius: 7px;
+}
+
+.body_container {
+    display: flex;
+    margin: 5% 10%;
+}
+
+.left_body {
+    width: 100%;
+    margin-right: 5%;
+    font-size: 1.1rem;
+}
+
+h2 {
+    margin-top: 0%;
+}
