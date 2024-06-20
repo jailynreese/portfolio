@@ -277,18 +277,22 @@
             console.log("index", index)
             switch (index) {
                 case 0:
+                    img = 'constellation-cove.jpeg';
+                    link = 'https://constellationcove.framer.website/';
+                    break;
+                case 1:
                     img = 'skytunes.png';
                     link = '/portfolio/skytunes.html';
                     break;
-                case 1:
+                case 2:
                     img = 'alphabetsoup.jpg';
                     link = '/portfolio/alphabetsoup.html';
                     break;
-                case 2:
+                case 3:
                     img = 'firework.png';
                     link = '/portfolio/fireworks.html';
                     break;
-                case 3:
+                case 4:
                     img = 'EntertainmentTrivia.jpg';
                     break;
                 default:
@@ -299,14 +303,14 @@
             //hover interaction
             ball.addEventListener("mouseenter", () => {
                 //spin and scale animation
-                // tl = gsap.to(`#b${index + 1}`, 2, {
-                //     rotation: 360, ease: Power2.easeInOut, zIndex: 1
-                //    // rotation: 360, scale: 2, ease: Power2.easeInOut, zIndex: 1
+                tl = gsap.to(`#b${index + 1}`, 2, {
+                    rotation: 360, ease: Power2.easeInOut, zIndex: 1
+                   // rotation: 360, scale: 2, ease: Power2.easeInOut, zIndex: 1
 
-                // });
+                });
 
                 //play
-                //tl.play();
+                tl.play();
 
                 //get innerhtml 
                 // ballInnerHtml = document.getElementById(`b${index + 1}`).innerHTML;
@@ -321,10 +325,10 @@
 
             });
 
-            ball.addEventListener("mouseleave", () => {
-                document.getElementById(`b${index + 1}`).innerHTML = sessionStorage.getItem(index);
-                //tl.reverse();
-            });
+            // ball.addEventListener("mouseleave", () => {
+            //     document.getElementById(`b${index + 1}`).innerHTML = sessionStorage.getItem(index);
+            //     //tl.reverse();
+            // });
 
         });
 
